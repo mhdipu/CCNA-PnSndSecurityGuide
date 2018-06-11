@@ -1,6 +1,6 @@
 # CCNA-PnSndSecurityGuide  
 #### Contents  
-##### [anchor](#wires--physical-media)  
-##### [anchor](tcpip)  
+##### [Wires & Physical media ](#wires--physical-media)  
+##### [TCP/IP](#tcpip)  
 ## Wires & Physical media  
 ## TCP/IP  
