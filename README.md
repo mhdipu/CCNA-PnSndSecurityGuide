@@ -1,3 +1,3 @@
 # CCNA-PnSndSecurityGuide  
-##Wires & Physical media  
-##TCP/IP  
+## Wires & Physical media  
+## TCP/IP  
