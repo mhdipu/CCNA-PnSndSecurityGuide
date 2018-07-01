@@ -1,7 +1,0 @@
-conf t
-line console 0
-exec-timeout 0 0
-logging synchronous
-history size 25
-exit
-no ip domain-lookup

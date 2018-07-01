@@ -1,0 +1,19 @@
+!CISCO CONFIGS ARE ALSO SCRIPTS YOU CAN COPY PASTE THIS TO A ROUTER DIRECTLY
+!sample for router [disclaimer syntax may vary with router] w basic security
+! for configure terminal
+conf t
+! this is to configure the console cable line (the 0th one) usually there's only one + the aux cable
+line console 0
+! WARNING this is an insecure command, I like to type it when im constructing in things like packet tracer
+! because a value of exec-timeout 0 0 will not log you off privileged mode after a certain time.
+! i.e. an command of exe-timeout 5 0 will allow you to be idle in console privileged mode for 5 minutes and 0 seconds 
+exec-timeout 0 0
+!this command allows the cisco ios to reprint any commands you may typing that get interrupted by system updates that 
+!print to stdout (P.S. cisco ios is unix based ?)
+logging synchronous
+!allows ios to keep track of last 25 commands which can be seen by typing up arrow
+history size 25
+exit
+!this command prevents the ios to perisistantly try to ' look up' any misspelled commands -- very annoying
+no ip domain-lookup
+!Part 2 S
